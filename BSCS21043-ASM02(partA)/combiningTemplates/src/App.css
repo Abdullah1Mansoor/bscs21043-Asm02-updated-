@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+body{
+  background-color: chocolate;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -41,3 +45,23 @@
   color: #888;
 }
 
+.weather-card, .news-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card {
+  position: absolute; /* Adjust positioning as needed */
+  top: 20%; /* Adjust as needed */
+  right: 10px; /* Align to the right */
+}
+
+.news-card {
+  position: absolute; /* Adjust positioning as needed */
+  top: 40%; /* Adjust as needed */
+  right: 10px; /* Align to the right */
+}
