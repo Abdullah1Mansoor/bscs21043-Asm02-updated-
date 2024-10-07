@@ -19,6 +19,8 @@ import Todos from './components/TodoList';
 import SearchBar from './components/SearchBar';
 // import DishCard from './components/DishCard';
 import LiveMenu from './components/LiveMenu';
+import Slider from './components/Slider';
+import Rating from './components/Rating';
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
       <Navbar></Navbar>
       <Sidebar></Sidebar>
       <Profile></Profile>
+      <Rating></Rating>
       <SearchBar></SearchBar>
       <IconGallery></IconGallery>
       <Todos></Todos>
@@ -36,7 +39,9 @@ function App() {
       <LatestProjects></LatestProjects>
       <Weather></Weather>
       <News></News>
-      <LiveMenu></LiveMenu>    
+      <LiveMenu></LiveMenu>   
+      
+      <Slider></Slider>
       {/* <AnalyticsDashboard></AnalyticsDashboard> */}
       <Quotes></Quotes>
       <UserActivity></UserActivity>
