@@ -1,0 +1,46 @@
+/* Navbar.css */
+.navbar {
+    background-color: blue;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: calc(100% - 250px); /* Adjust width based on sidebar */
+    top: 0; /* Align to the top */
+    z-index: 1000; /* Ensure it is on top of other content */
+  }
+  
+  .navbar-title h1 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-container {
+    margin-left: 20px; /* Space between icons */
+    position: relative;
+  }
+  
+  .navbar-icon {
+    font-size: 20px; /* Size of the icons */
+    color: #333; /* Icon color */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  .user-profile {
+    margin-left: 20px; /* Space for the profile picture */
+  }
+  
+  .profile-pic {
+    width: 40px; /* Size of the profile picture */
+    height: 40px; /* Size of the profile picture */
+    border-radius: 50%; /* Make it circular */
+  }
+  
