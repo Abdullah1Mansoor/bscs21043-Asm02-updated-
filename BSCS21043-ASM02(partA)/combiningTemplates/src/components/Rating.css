@@ -1,0 +1,16 @@
+.rating-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    align-items: center; /* Center the stars vertically */
+  }
+  
+  .star {
+    font-size: 2rem; /* Star size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: color 0.2s; /* Smooth color transition */
+    margin-right: 5px; /* Space between stars */
+  }
+  
+  input[type='radio'] {
+    display: none; /* Hide the radio buttons */
+  }
+  
