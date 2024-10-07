@@ -24,5 +24,18 @@
     "Certification": "AWS Certified Solutions Architect",
     "Contact": "example@email.com",
     "timestamp": "2024-10-05T12:40:40.342Z"
+  },
+  {
+    "Name": " Mansoor",
+    "Title": "Software Engineer",
+    "TargetedKeywords": [
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "Education": "Bachelor's in Computer Science",
+    "Certification": "AWS Certified Solutions Architect",
+    "Contact": "example@email.com",
+    "timestamp": "2024-10-07T10:20:18.496Z"
   }
 ]

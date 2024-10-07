@@ -1,0 +1,115 @@
+/* 
+.sidebar-container {
+    width: 250px;           
+    height: 100vh;          
+    background-color: #333; 
+    color: white;           
+  }
+  
+  
+  .sidebar ul {
+    list-style-type: none;  
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    padding: 15px;
+    border-bottom: 1px solid #444;  
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar li:hover {
+    background-color: #555; 
+    cursor: pointer;
+  }
+  
+  .sidebar li svg {
+    margin-right: 10px;  
+  }
+  
+  
+  .simplebar-scrollbar:before {
+    background-color: #777; 
+   */
+   /* Container for the sidebar */
+   .sidebar-container {
+    width: 250px;
+    height: 100vh;
+    background-color: #1e2a38;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    position: fixed; /* Fix the sidebar to the leftmost position */
+    top: 0;
+    left: 0;
+    z-index: 9999; /* Ensure the sidebar is on top of other content */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+.sidebar-header h1 {
+    color: #ffffff;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    background-color: #22303c;
+    border-bottom: 1px solid #344454;
+}
+
+/* List items in the sidebar */
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-section {
+    padding: 10px 20px;
+    color: #b0b8c2;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.sidebar-item {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    color: #c5d1df;
+    font-size: 15px;
+}
+
+.sidebar-item:hover {
+    background-color: #344454;
+    cursor: pointer;
+    color: white;
+}
+
+.sidebar-item svg {
+    margin-right: 15px;
+    color: #c5d1df;
+}
+
+.sidebar-item:hover svg {
+    color: white;
+}
+
+/* Active item */
+.sidebar-item.active {
+    background-color: #2d3748;
+    color: white;
+}
+
+/* Scrollbar styling (optional, if SimpleBar has scroll) */
+.simplebar-scrollbar:before {
+    background-color: #4b5967;
+}
+
+.simplebar-track.simplebar-vertical {
+    width: 6px;
+}
+
+  
