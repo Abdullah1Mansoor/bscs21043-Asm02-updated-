@@ -1,0 +1,35 @@
+/* src/components/IconGallery.css */
+.icon-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    gap: 20px; /* Space between icons */
+    justify-content: center; /* Center the icons */
+  }
+  
+  .icon-card {
+    display: flex;
+    flex-direction: column; /* Stack icon and text */
+    align-items: center; /* Center icon and text */
+    justify-content: center; /* Center vertically */
+    width: 100px; /* Set width */
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f0f0f0; /* Background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; /* Animation on hover */
+  }
+  
+  .icon-card:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+  }
+  
+  .icon-card i {
+    font-size: 24px; /* Icon size */
+    color: #ff5722; /* Change color to your preference */
+  }
+  
+  .icon-card span {
+    margin-top: 5px; /* Space between icon and text */
+    color: #333; /* Text color */
+  }
+  
