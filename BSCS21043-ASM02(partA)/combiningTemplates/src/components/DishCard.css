@@ -1,0 +1,26 @@
+.dish-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .dish-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+  }
+  
+  .dish-name {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .dish-price {
+    font-size: 1em;
+    color: #333;
+  }
+  
