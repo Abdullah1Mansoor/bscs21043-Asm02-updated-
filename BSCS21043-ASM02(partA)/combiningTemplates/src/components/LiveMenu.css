@@ -1,0 +1,52 @@
+.live-menu-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-title {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-item.available {
+    background-color: #e6ffe6;
+  }
+  
+  .menu-item.unavailable {
+    background-color: #ffe6e6;
+  }
+  
+  .menu-name {
+    font-weight: bold;
+  }
+  
+  .menu-price {
+    color: #333;
+  }
+  
+  .menu-status {
+    font-style: italic;
+    color: #666;
+  }
+  
